@@ -1,0 +1,36 @@
+/*  seletor universal asterisco    */  
+* {margin:0;
+    padding:0;box-sizing: border-box;}
+
+body {padding: 10px;background-color: lightpink;}
+
+/* seletor de elementos */
+h1 {text-align: center;
+    color: gray;}
+
+footer {position: fixed;
+    bottom:0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: mediumpurple;}
+
+/* seletor de classe */
+.ptodos {
+    color:green;}
+
+.card  {margin:0 auto;}
+/* seletor de id - mais específico - CERQUILHA */
+
+#p1 {
+    color:blue;
+    font-size:1.3em ;
+}
+
+/* pseudo elemento */
+#p1:hover {background-color:black; 
+    color:white;}
+
+
+
+
